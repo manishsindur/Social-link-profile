@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "postcss style.css -o dist/styles.css"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.13",
     "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "postcss-cli": "^11.0.0"
   }
 }
